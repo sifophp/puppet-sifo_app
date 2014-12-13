@@ -15,10 +15,14 @@ host { 'localhost.localdomain':
     host_aliases => ['localhost','memcached','mysql']
 }
 
-# Memcached server (1GB)
+# Firewall rules in modules/webserverfirewall/manifests/rules.pp:
+include webserverfirewall
+
+
+# Memcached server (128MB)
 class { 'memcached':
-    max_memory => 1024,
-    max_connections => 2048
+    max_memory => 128,
+    max_connections => 1024
 }
 
 # Apache
