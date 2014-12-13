@@ -1,0 +1,13 @@
+{
+    "name": "sifo-provisioning",
+    "version": "0.1",
+    "author": "Albert Lombarte",
+    "summary": "Provisions a CentOS server with a running LAMP using a SIFO application as sample",
+    "license": "Apache 2.0",
+    "source": "https://github.com/sifophp/sifo-provisioning.git",
+    "project_page": "https://github.com/sifophp/sifo-provisioning",
+    "dependencies": [
+        { "name": "puppetlabs/firewall", "version_requirement": ">= 0.0.4" },
+    	{ "name": "puppetlabs/apache", "version_requirement": "1.2.0" }
+    ]
+}
