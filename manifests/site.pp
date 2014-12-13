@@ -73,4 +73,9 @@ vcsrepo { "/var/www/sifo.me":
 include php::mod_php5
 php::module { [ 'devel', 'pear', 'mysql', 'mbstring', 'xml', 'gd', 'tidy', 'pecl-apc', 'pecl-memcache' ]: }
 
+php::ini { '/etc/php.ini':
+  display_errors => 'Off',
+  memory_limit   => '128M',
+}
+
 
