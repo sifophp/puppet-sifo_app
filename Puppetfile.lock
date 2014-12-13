@@ -1,0 +1,24 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-apache (1.2.0)
+      puppetlabs-concat (>= 1.1.1)
+      puppetlabs-stdlib (>= 2.4.0)
+    puppetlabs-concat (1.1.2)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs-firewall (1.2.0)
+    puppetlabs-stdlib (4.4.0)
+
+GIT
+  remote: https://github.com/alombarte/puppet-webserverfirewall.git
+  ref: master
+  sha: b6aa12e1435dde6d79c34f93b17550f2e44cad23
+  specs:
+    alombarte-webserverfirewall (0.1)
+      puppetlabs-firewall (= 1.2)
+
+DEPENDENCIES
+  alombarte-webserverfirewall (>= 0)
+  puppetlabs-apache (= 1.2.0)
+  puppetlabs-firewall (>= 0.0.4)
+
