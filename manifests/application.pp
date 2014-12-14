@@ -1,4 +1,5 @@
 # Virtual hosts
+include apache
 apache::vhost { 'sifo.me':
     priority        => '0010',
     port            => '80',
