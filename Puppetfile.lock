@@ -26,15 +26,15 @@ FORGE
 GIT
   remote: https://github.com/alombarte/puppet-webserverfirewall.git
   ref: master
-  sha: b6aa12e1435dde6d79c34f93b17550f2e44cad23
+  sha: acb0b82c021df8a9f2ead344f41d2ed595c564d5
   specs:
-    alombarte-webserverfirewall (0.1)
+    alombarte-webserverfirewall (0.1.1)
       puppetlabs-firewall (= 1.2)
 
 DEPENDENCIES
   alombarte-webserverfirewall (>= 0)
   puppetlabs-apache (= 1.2.0)
-  puppetlabs-firewall (>= 0.0.4)
+  puppetlabs-firewall (~> 1.2.0)
   puppetlabs-mysql (= 3.0.0)
   puppetlabs-ntp (= 3.3.0)
   puppetlabs-vcsrepo (= 1.2.0)

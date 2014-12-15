@@ -4,20 +4,19 @@
 forge "https://forgeapi.puppetlabs.com"
 
 # use dependencies defined in metadata.json
-metadata
+#metadata
 
 
-mod puppetlabs/firewall, "1.1.3"
-mod puppetlabs/apache, "1.2.0"
-mod puppetlabs/mysql, "3.0.0"
-mod puppetlabs/ntp, "3.3.0"
-mod puppetlabs/vcsrepo, "1.2.0"
-mod saz/memcached, "2.6.0"
-mod thias/php, "1.0.0"
-mod tPl0ch/composer, "1.3.3"
-mod 'alombarte-webserverfirewall',
+mod 'puppetlabs/firewall', "1.2.x"
+mod 'puppetlabs/apache', "1.2.0"
+mod 'puppetlabs/mysql', "3.0.0"
+mod 'puppetlabs/ntp', "3.3.0"
+mod 'puppetlabs/vcsrepo', "1.2.0"
+mod 'saz/memcached', "2.6.0"
+mod 'thias/php', "1.0.0"
+mod 'tPl0ch/composer', "1.3.3"
+mod 'alombarte/webserverfirewall',
   :git => 'https://github.com/alombarte/puppet-webserverfirewall.git'
-  :ref => '0.1.1'
 
 
 # use dependencies defined in Modulefile
