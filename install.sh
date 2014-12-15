@@ -11,10 +11,10 @@ mv /etc/puppet/ /etc/puppet_original
 mv sifo-provisioning /etc/puppet
 
 # Install puppet dependencies:
-source install-puppet-modules.sh
+puppet-librarian install
 
 # cron task to regularly run puppet apply on a main manifest
 # sudo puppet resource cron puppet-apply ensure=present user=root minute=30 command='/usr/bin/puppet apply /etc/puppet/manifests/site.pp'
 
-/usr/bin/puppet apply /etc/puppet/manifests/site.pp
+/usr/bin/puppet apply /etc/puppet/manifests/services.pp
 
