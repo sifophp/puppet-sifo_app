@@ -1,5 +1,5 @@
 yum install -y git
-git clone --recursive https://github.com/sifophp/sifo-provisioning.git
+git clone --recursive https://github.com/sifophp/puppet-sifo-app.git
 
 # Install librarian-puppet:
 gem install librarian-puppet
@@ -8,7 +8,7 @@ gem install librarian-puppet
 rpm -ivh http://yum.puppetlabs.com/el/7/products/x86_64/puppetlabs-release-7-11.noarch.rpm
 yum install -y puppet
 mv /etc/puppet/ /etc/puppet_original
-mv sifo-provisioning /etc/puppet
+mv puppet-sifo-app /etc/puppet
 
 # Install puppet dependencies:
 librarian-puppet install

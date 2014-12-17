@@ -4,6 +4,6 @@
     "author": "Albert Lombarte",
     "summary": "Provisions a CentOS server with a running LAMP using a SIFO application as sample",
     "license": "Apache 2.0",
-    "source": "https://github.com/sifophp/sifo-provisioning.git",
-    "project_page": "https://github.com/sifophp/sifo-provisioning"
+    "source": "https://github.com/sifophp/puppet-sifo-app.git",
+    "project_page": "https://github.com/sifophp/puppet-sifo-app"
 }

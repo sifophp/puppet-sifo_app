@@ -49,4 +49,6 @@ php::ini { '/etc/php.ini':
   memory_limit   => '128M',
 }
 
+# Install application specific requirements:
+import 'application.pp'
 
