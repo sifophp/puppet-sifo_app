@@ -1,9 +1,9 @@
 {
-    "name": "sifo-provisioning",
-    "version": "0.1.0",
+    "name": "sifophp-sifo_app",
+    "version": "0.1.1",
     "author": "Albert Lombarte",
     "summary": "Provisions a CentOS server with a running LAMP using a SIFO application as sample",
     "license": "Apache 2.0",
-    "source": "https://github.com/sifophp/puppet-sifo-app.git",
-    "project_page": "https://github.com/sifophp/puppet-sifo-app"
+    "source": "https://github.com/sifophp/puppet-sifo_app",
+    "project_page": "https://github.com/sifophp/puppet-sifo_app"
 }
