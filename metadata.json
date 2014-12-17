@@ -1,9 +1,24 @@
 {
     "name": "sifophp-sifo_app",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Albert Lombarte",
     "summary": "Provisions a CentOS server with a running LAMP using a SIFO application as sample",
     "license": "Apache 2.0",
     "source": "https://github.com/sifophp/puppet-sifo_app",
     "project_page": "https://github.com/sifophp/puppet-sifo_app"
+
+    "dependencies": [
+		{ "name": "saz/memcached" },
+		{ "name": "puppetlabs/firewall" },
+		{ "name" :"puppetlabs/apache", "version" : "1.2.0" },
+		{ "name" :"puppetlabs/mysql", "version" : "3.0.0" },
+		{ "name" :"puppetlabs/ntp", "version" : "3.3.0" },
+		{ "name" :"puppetlabs/vcsrepo", "version" : "1.2.0" },
+		{ "name" :"saz/memcached", "version" : "2.6.0" },
+		{ "name" :"thias/php", "version" : "1.0.0" },
+		{ "name" :"tPl0ch/composer", "version" : "1.3.3" }
+    ]
+
+
+
 }
