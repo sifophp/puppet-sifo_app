@@ -5,8 +5,7 @@
     "summary": "Provisions a CentOS server with a running LAMP using a SIFO application as sample",
     "license": "Apache 2.0",
     "source": "https://github.com/sifophp/puppet-sifo_app",
-    "project_page": "https://github.com/sifophp/puppet-sifo_app"
-
+    "project_page": "https://github.com/sifophp/puppet-sifo_app",
     "dependencies": [
 		{ "name": "saz/memcached" },
 		{ "name": "puppetlabs/firewall" },
@@ -18,7 +17,4 @@
 		{ "name" :"thias/php", "version" : "1.0.0" },
 		{ "name" :"tPl0ch/composer", "version" : "1.3.3" }
     ]
-
-
-
 }
