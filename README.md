@@ -10,4 +10,4 @@ Execute inside your CentOS machine:
 	bash <(curl -s https://raw.githubusercontent.com/sifophp/puppet-sifo-app/master/install.sh)
 
 
-# This is a working in progress project, do not use it yet :)
+# Work in progress, do not use it yet :)
